@@ -1,0 +1,22 @@
+{
+	"user": "ScavengeSurvive",
+	"repo": "itemtype-clothes",
+	"entry": "test.pwn",
+	"output": "test.amx",
+	"dependencies": [
+		"sampctl/samp-stdlib",
+		"ScavengeSurvive/item",
+		"pawn-lang/YSI-Includes",
+		"ScavengeSurvive/item-array-data",
+		"ScavengeSurvive/hold-action"
+	],
+	"dev_dependencies": [
+		"ScavengeSurvive/test-boilerplate"
+	],
+	"runtime": {
+		"version": "0.3.7",
+		"mode": "server",
+		"rcon_password": "password",
+		"port": 7777
+	}
+}
